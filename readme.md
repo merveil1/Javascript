@@ -1,1 +1,1 @@
-evrything Js related
+everything Js related
