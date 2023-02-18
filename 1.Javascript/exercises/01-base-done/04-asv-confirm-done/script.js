@@ -11,4 +11,9 @@
 
 (() => {
     // your code here
+    do{
+        var age = prompt("Quel est votre age?");
+        var sexe = prompt("Quel est votre sexe?");
+        var ville = prompt("Quel est votre ville?");
+    } while (!(confirm (" Est ce correcte "+age +" "+" "+sexe+" "+ ville)));
 })();
