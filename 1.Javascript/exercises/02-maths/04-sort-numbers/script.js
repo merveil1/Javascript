@@ -14,5 +14,8 @@
 
     document.getElementById("run").addEventListener("click", () => {
         // your code here
+        let nombres = document.getElementById("numbers").value;
+        nombres = Array.from(nombres)
+        alert (nombres[0]);
     });
 })();
